@@ -211,15 +211,49 @@ namespace assigment_02
 
             #endregion
             #region problem 13
-            Console.WriteLine("enter the string that you want to reverce");
-            string word = Console.ReadLine();
-            string ReversedString = "";
+            //Console.WriteLine("enter the string that you want to reverce");
+            //string word = Console.ReadLine();
+            //string ReversedString = "";
 
-            for (int i = word.Length-1; i >= 0; i--)
+            //for (int i = word.Length-1; i >= 0; i--)
+            //{
+            //    ReversedString += word[i];
+            //}
+            //Console.WriteLine(ReversedString);
+
+
+            #endregion
+            #region problem 14
+            //Console.WriteLine("enter the integer that you want to reverce");
+            //int IntegerNumber = Convert.ToInt32(Console.ReadLine());
+            //string SIntegerNumber = Convert.ToString(IntegerNumber);
+            //string Reversedintegr = "";
+
+            //for (int i = SIntegerNumber.Length - 1; i >= 0; i--)
+            //{
+            //    Reversedintegr += SIntegerNumber[i];
+            //}
+            //Console.WriteLine(Reversedintegr);
+            #endregion
+            #region problem 15
+            Console.WriteLine("enter the strat number and the end number");
+            int StartNumber = Convert.ToInt32(Console.ReadLine());
+            int EndNumber = Convert.ToInt32(Console.ReadLine());
+            for (int i = StartNumber; i <= EndNumber; i++)
             {
-                ReversedString += word[i];
+                int PrimeNumber = 0;
+                for (int j = 2; j*j < i; j++)
+                {
+                    if (i%j == 0)
+                    {
+                        PrimeNumber = i;
+                    }
+                }
+                Console.WriteLine(PrimeNumber);
             }
-            Console.WriteLine(ReversedString);
+            {
+                
+            }
 
 
             #endregion

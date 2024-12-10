@@ -13,3 +13,4 @@ E:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\refint\assigment 02.dll
 E:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.pdb
 E:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.genruntimeconfig.cache
 E:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\ref\assigment 02.dll
+E:\Backend\assigment 02\assigment 02\obj\Debug\net5.0\assigment 02.sourcelink.json

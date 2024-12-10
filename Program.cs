@@ -126,18 +126,104 @@ namespace assigment_02
 
             #endregion
             #region problem 10
-            int Subject01 = Convert.ToInt32(Console.ReadLine());
-            int Subject02 = Convert.ToInt32(Console.ReadLine());
-            int Subject03 = Convert.ToInt32(Console.ReadLine());
-            int Subject04 = Convert.ToInt32(Console.ReadLine());
-            int Subject05 = Convert.ToInt32(Console.ReadLine());
+            //int Subject01 = Convert.ToInt32(Console.ReadLine());
+            //int Subject02 = Convert.ToInt32(Console.ReadLine());
+            //int Subject03 = Convert.ToInt32(Console.ReadLine());
+            //int Subject04 = Convert.ToInt32(Console.ReadLine());
+            //int Subject05 = Convert.ToInt32(Console.ReadLine());
 
-            float TotalMarks = (float)(Subject01 + Subject02 + Subject03 + Subject04 + Subject05);
-            float AverageMarks = TotalMarks / 5;
-            float Presentage = (TotalMarks / 500f) * 100;
-            Console.WriteLine($"Total marks = {TotalMarks} /n  AverageMarks = {AverageMarks} /n Presentage = {Presentage}");
+            //float TotalMarks = (float)(Subject01 + Subject02 + Subject03 + Subject04 + Subject05);
+            //float AverageMarks = TotalMarks / 5;
+            //float Presentage = (TotalMarks / 500f) * 100;
+            //Console.WriteLine($"Total marks = {TotalMarks} /n  AverageMarks = {AverageMarks} /n Presentage = {Presentage}");
 
             #endregion
+            #region problem 11
+            //int MonthNumber = Convert.ToInt32(Console.ReadLine());
+            //switch (MonthNumber)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Days in Month: 31");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month: 29");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 4:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 5:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 6:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 7:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 8:
+            //        Console.WriteLine("Days in Month: 29");
+            //        break;
+            //    case 9:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 10:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 11:
+            //        Console.WriteLine("Days in Month: 30");
+            //        break;
+            //    case 12:
+            //        Console.WriteLine("Days in Month: 31");
+            //        break;
+            //        default:
+            //        Console.WriteLine("enter a vaild month number");
+            //        break;
+            //}
+
+            #endregion
+            #region problem 12
+            //Console.WriteLine("enter two numbers");
+            //int Number1 = Convert.ToInt32(Console.ReadLine());
+            //int Number2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("for pluse press 1 for subtract press 2 for multiply press3 for division press 4");
+            // int OperationNumber = Convert.ToInt32(Console.ReadLine());
+            //switch (OperationNumber)
+            //{
+            //    case 1:
+            //        Console.WriteLine(Number1+Number2);
+            //        break;
+            //    case 2:
+            //        Console.WriteLine(Number1 - Number2);
+            //        break;
+            //    case 3:
+            //        Console.WriteLine(Number1 * Number2);
+            //        break;
+            //    case 4:
+            //        Console.WriteLine(Number1 / Number2);
+            //        break;
+            //    default:
+            //        Console.WriteLine("press[1-4]");
+            //        break;
+            //}
+
+            #endregion
+            #region problem 13
+            Console.WriteLine("enter the string that you want to reverce");
+            string word = Console.ReadLine();
+            string ReversedString = "";
+
+            for (int i = word.Length-1; i >= 0; i--)
+            {
+                ReversedString += word[i];
+            }
+            Console.WriteLine(ReversedString);
+
+
+            #endregion
+
 
 
         }
